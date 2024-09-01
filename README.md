@@ -33,6 +33,9 @@ presentation/: the entry point for running the training process.
 
 main.py: executes the training process and saves the model and tokenizer.
 
+# Requirements.txt 
+here’s a requirements.txt file that includes the necessary packages
+
 # Note
-If you run Kolb's code, please use GPU T4 to avoid errors.
+If you run NER.ipynb code, please use GPU T4 to avoid errors and increase processing speed.
 
