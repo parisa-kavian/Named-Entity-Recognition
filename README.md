@@ -2,13 +2,10 @@
 
 This project implements a Named Entity Recognition (NER) system using BERT (Bidirectional Encoder Representations from Transformers). NER is a natural language processing (NLP) technique designed to extract and classify important information from text. It focuses on identifying and categorizing named entities, which include key subjects such as names, places, companies, events, products, topics, tenses, monetary values, and percentages.
 
-BERT, developed by Google in 2018, is a machine learning framework for NLP known for its advanced understanding of language. It excels at interpreting ambiguous language by analyzing the relationships between words in a sentence. BERT was trained on a vast amount of text data and uses the Transformer architecture, which enables it to learn contextual relationships between words (or subwords) effectively.
-
-Given that the meaning of an entity can vary based on its context (e.g., "APPLE" could refer to the fruit or the company), BERT's bidirectional context analysis is particularly useful for NER tasks. This capability helps disambiguate entities by considering their surrounding context, improving the accuracy of entity recognition.
 
 # Conll2003 dataset
 
-The CoNLL-2003 dataset is a popular benchmark for named entity recognition (NER) tasks. It provides labeled data for four types of entities:
+The CoNLL-2003 dataset is used for training, which is a popular benchmark for NER tasks. Provides tagged data for four types of entities:
 
 Persons: Names of people
 Locations: Names of places
