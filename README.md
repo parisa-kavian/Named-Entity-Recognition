@@ -29,7 +29,7 @@ metric_utils.py: includes functions for loading and computing metrics.
 presentation/: the entry point for running the training process.
 
 main.py: executes the training process and saves the model and tokenizer.
-
+test.py: designes to evaluate the performance of the trained NER model on a given dataset.
 # Requirements.txt 
 here’s a requirements.txt file that includes the necessary packages
 
