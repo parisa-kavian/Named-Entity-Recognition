@@ -1,3 +1,6 @@
-/test-ner
-/tokenizer
+__pycache__/
+*.pyc
+/ner-bert-conll2003
 /ner_model
+/tokenizer
+/test-ner
